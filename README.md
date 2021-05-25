@@ -5,8 +5,9 @@
 ![version](https://img.shields.io/badge/version-1.4.4-green.svg) ![version](https://img.shields.io/badge/version-1.4.5-green.svg)
 
 ## Installation
-
 Android-SDK is available through Maven.
+
+## Maven
 Add the repository in build.gradle file (app level) and implement the dependency
 
 ```sh
