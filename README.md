@@ -7,26 +7,42 @@
 ## Installation
 Android-SDK is available through Maven.
 
-## Maven
-Add the repository in build.gradle file (app level) and implement the dependency
+1. Add the repository into build.gradle file
+	* App level (root level repositories not buildscript)
+		
+		```sh
+		repositories {
+		    ...
+		    maven {
+		        url "https://github.com/Gainsight/px-android/raw/main/"
+		    }
+		}
+		```
+	* **Or** in project level (allprojects level repositories)
 
-```sh
-repositories {
-    ...
-    maven {
-        url "https://github.com/Gainsight/px-android/raw/main/"
-    }
-}
+		```sh
+		allprojects {
+		    repositories {
+		        ...
+		        maven {
+			        url "https://github.com/Gainsight/px-android/raw/main/"
+			    }
+		    }
+		}
+		```
 
-dependencies {
-    ...
-    implementation 'com.gainsight.px:mobile-sdk:1.4.5'
-}
-```
+2. Add the dependency to build.gradle file (App level)
 
+	```sh
+	dependencies {
+	    ...
+	    implementation 'com.gainsight.px:mobile-sdk:1.4.5'
+	}
+	```
+	
 ## Documentation
 
-You can find usage documentation at https://support.gainsight.com/PX/Mobile/Mobile_Platforms.
+You can find usage documentation [here](https://support.gainsight.com/PX/Mobile/Mobile_Platforms).
 
 
 ## License
