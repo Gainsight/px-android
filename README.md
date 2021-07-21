@@ -36,7 +36,7 @@ Android-SDK is available through Maven.
 	```sh
 	dependencies {
 	    ...
-	    implementation 'com.gainsight.px:mobile-sdk:1.4.6'
+	    implementation 'com.gainsight.px:mobile-sdk:1.5.2'
 	}
 	```
 	
