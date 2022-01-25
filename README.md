@@ -36,7 +36,7 @@ Android-SDK is available through Maven.
 	```sh
 	dependencies {
 	    ...
-	    implementation 'com.gainsight.px:mobile-sdk:1.5.2'
+	    implementation 'com.gainsight.px:mobile-sdk:1.7.0'
 	}
 	```
 	
@@ -44,6 +44,13 @@ Android-SDK is available through Maven.
 
 You can find usage documentation [here](https://support.gainsight.com/PX/Mobile/Mobile_Platforms).
 
+## Release Notes
+
+Version 1.7.0
+
+* Supporting Web JS platforms i.e: Ionic, Sencha, Cordova
+* Filtering out non-SDK deep links
+* Adding new datacenter
 
 ## License
 
