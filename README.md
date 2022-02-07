@@ -2,7 +2,7 @@
 
 ## Android-SDK
 
-![version](https://img.shields.io/badge/version-1.4.4-green.svg) ![version](https://img.shields.io/badge/version-1.4.5-green.svg)
+![version](https://img.shields.io/badge/version-1.7.0-green.svg)
 
 ## Installation
 Android-SDK is available through Maven.
