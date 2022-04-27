@@ -2,7 +2,7 @@
 
 ## Android-SDK
 
-![version](https://img.shields.io/badge/version-1.7.0-green.svg)
+![version](https://img.shields.io/badge/version-1.7.2-green.svg)
 
 ## Installation
 Android-SDK is available through Maven.
@@ -36,7 +36,7 @@ Android-SDK is available through Maven.
 	```sh
 	dependencies {
 	    ...
-	    implementation 'com.gainsight.px:mobile-sdk:1.7.0'
+	    implementation 'com.gainsight.px:mobile-sdk:1.7.2'
 	}
 	```
 	
@@ -45,6 +45,12 @@ Android-SDK is available through Maven.
 You can find usage documentation [here](https://support.gainsight.com/PX/Mobile/Mobile_Platforms).
 
 ## Release Notes
+
+Version 1.7.2
+
+* Support tracking web view content (inside native app)
+* Adding configuration for limiting persistent cache queue size
+* Fixing bugs
 
 Version 1.7.0
 
