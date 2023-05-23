@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gainsight.px",
+    "module": "mobile-sdk",
+    "version": "1.9.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mobile-sdk-1.9.2.aar",
+          "url": "mobile-sdk-1.9.2.aar",
+          "size": 308583,
+          "sha512": "fe2beed1e0940851fcfedb6536b3296d9595c571c926dfadc0d1a07b30625e0012a794842aa5865a570229078c767a1e909c6369be4787b03c30349b6b99b8b6",
+          "sha256": "6d2a0d534171c0cbb8015eedde0982a20fe0f4b6be2edc778f05769925f39348",
+          "sha1": "deb5146b02e1b570be20dadb42a56777e6fe8e59",
+          "md5": "65610e2d032f999192cfe03d7f9badd1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mobile-sdk-1.9.2.aar",
+          "url": "mobile-sdk-1.9.2.aar",
+          "size": 308583,
+          "sha512": "fe2beed1e0940851fcfedb6536b3296d9595c571c926dfadc0d1a07b30625e0012a794842aa5865a570229078c767a1e909c6369be4787b03c30349b6b99b8b6",
+          "sha256": "6d2a0d534171c0cbb8015eedde0982a20fe0f4b6be2edc778f05769925f39348",
+          "sha1": "deb5146b02e1b570be20dadb42a56777e6fe8e59",
+          "md5": "65610e2d032f999192cfe03d7f9badd1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mobile-sdk-1.9.2-javadoc.jar",
+          "url": "mobile-sdk-1.9.2-javadoc.jar",
+          "size": 535721,
+          "sha512": "d39385fbf9d4726843d574bc3eefa6b2e9c4610f428e32b7ac0e1ccd3aa5371b09ca889d9b27774fb7a094e8a272b19267be57bf2cf1c6e251801e61b76d9812",
+          "sha256": "ec5f265c97e25f05c97354e6808d95cda597921d075c8aa7c193c1c6aee3e9fa",
+          "sha1": "6cb3a6197922cd179b2207b23d5b6c062dd6a4c4",
+          "md5": "95b015d912d7084c70473a2169f607ca"
+        }
+      ]
+    }
+  ]
+}
