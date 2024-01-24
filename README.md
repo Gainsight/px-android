@@ -2,7 +2,7 @@
 
 ## Android-SDK
 
-![version](https://img.shields.io/badge/version-1.10.1-green.svg)
+![version](https://img.shields.io/badge/version-1.11.0-green.svg)
 
 ## Installation
 Android-SDK is available through Maven.
@@ -36,7 +36,7 @@ Android-SDK is available through Maven.
 	```sh
 	dependencies {
 	    ...
-	    implementation 'com.gainsight.px:mobile-sdk:1.10.1'
+	    implementation 'com.gainsight.px:mobile-sdk:1.11.0'
 	}
 	```
 	
@@ -45,6 +45,11 @@ Android-SDK is available through Maven.
 You can find usage documentation [here](https://support.gainsight.com/PX/Mobile/Mobile_Platforms).
 
 ## Release Notes
+
+Version 1.11.0
+
+* Upgrading project Gradle and AGP versions
+* Fixing bugs
 
 Version 1.10.1
 
