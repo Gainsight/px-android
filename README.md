@@ -56,7 +56,7 @@ Version 1.13.4
 
 Version 1.13.3
 
-* Engagement displaying is more stable and will onl be dismissed if the main resource is unavailable and not for css
+* Engagement displaying is more stable and will only be dismissed if the main resource is unavailable and not for css
 
 Version 1.13.2
 
@@ -86,7 +86,7 @@ Version 1.12.1
 
 Version 1.12.0
 
-* Stop collecting device and advertisment ids on android
+* Stop collecting device and advertisement ids on android
 * Fixing configuration issue with Hybrid SDK on android
 
 Version 1.11.0
